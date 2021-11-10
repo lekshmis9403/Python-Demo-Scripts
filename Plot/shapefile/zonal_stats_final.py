@@ -1,4 +1,8 @@
 ###################Calculating state average of a variable and plotting using shape file#######
+##############The shapefile and data file are read; Regions are defined and masked#############
+###########Zonal statistics for first state is calculated and plotted##########################
+##############Zonal statistics and plot of other states are done inside a loop#################
+############Give necessary plot settings, colorbar and save figure#############################
 
 import geopandas as gpd
 import regionmask 
@@ -36,7 +40,7 @@ state1_mask=state1.mask(lon,lat)			##### State mask variable
 
 time_ind=10						####Any time step as per need
 u10_all=np.full([lat_size,lon_size],np.nan,order='C')	##Create a variable to store state averagein whole lat-lon range
-result=np.where(state1_mask==0)			###Obtain indices for first state
+result=np.where(state1_mask==0)				###Obtain indices for first state
 lat_ind=result[0]					# latitude index for state1
 lon_ind=result[1]					# longitude index for state1
 u10_state=np.mean((u10[time_ind,:,:][lat_ind,:][:,lon_ind]),axis=(0,1))##Calculate state mean (single value)
