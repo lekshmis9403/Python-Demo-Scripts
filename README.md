@@ -47,15 +47,15 @@ The path for obtaining the scripts and sample data are listed below:
   
 2.Subsetting scripts :
 
-  lekshmis9403/Python-DEMO-Scripts/subset/
+  lekshmis9403/Python-DEMO-Scripts/Subset/
   
 3.Writing Scripts :
 
-  lekshmis9403/Python-DEMO-Scripts/write/
+  lekshmis9403/Python-DEMO-Scripts/Write/
   
 4.Plotting Scripts : 
 
-  lekshmis9403/Python-DEMO-Scripts/Plotting/
+  lekshmis9403/Python-DEMO-Scripts/Plot/
   
 5.Sample Datasets :
 
