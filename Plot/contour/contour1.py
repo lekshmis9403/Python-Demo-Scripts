@@ -1,4 +1,4 @@
-########Plotting time series of rainfall at a particular location#############
+########Plotting line and filled contour#############
 
 ###########Import necessary modules##########################
 
@@ -8,9 +8,8 @@ import matplotlib.pyplot as plt
 import datetime as dt
 
 ############ File to be read ####################
-############ IMD Gridded Rainfall data ##########
 
-file_name  = filename='/mnt/d/DATA/ERA5/Wind/ERA5_Wind_2019.nc'
+file_name ='/mnt/d/DATA/ERA5/Wind/ERA5_Wind_2019.nc'
 
 ################# open file ######################
 
@@ -67,3 +66,4 @@ ax.set_xlabel('Longitude')
 ax.set_ylabel('Latitude')
 
 plt.savefig('contour1.png')	#plt.savefig('contour1_line.png')	
+exit()
