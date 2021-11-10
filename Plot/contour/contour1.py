@@ -1,5 +1,4 @@
-########Plotting line and filled contour#############
-
+###########Plotting a filled and line contour#########################
 ###########Import necessary modules##########################
 
 import netCDF4 as nc
@@ -27,7 +26,7 @@ print(f['u10'])          # Metadata of single variable
 u10   = f.variables['u10'][:]
 lats = f.variables['latitude'][:]
 lons = f.variables['longitude'][:]
-time = f.variables['time']		# In the file for the time dimension year has been set as 2010 in all year files
+time = f.variables['time']		
 
 #print(lons.min()," ,",lons.max())
 #print(lats)
@@ -66,4 +65,3 @@ ax.set_xlabel('Longitude')
 ax.set_ylabel('Latitude')
 
 plt.savefig('contour1.png')	#plt.savefig('contour1_line.png')	
-exit()
