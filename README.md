@@ -7,7 +7,7 @@ introductory scripts which will be useful for the analysis of meorological gridd
 noted that this project mainly focus on the data types such as NetCDF4, BINARY and GRIB format which are 
 some of the most common datasets available for weather and climate related research studies. Here we have 
 used sample data of the aforementioned types which is provided in the folder 
-'CAUI-IMDPune/Python-Demo-Scripts/Sample_Data/'.
+'lekshmis9403/Python-Demo-Scripts/Sample_Data/'.
 
 The structure of this repository is that sub-folders for reading, subsetting and writing the files have been created
 with each of them containing seperate folders for each data types used. A sub-folder with some of the most common 
@@ -16,13 +16,17 @@ and BINARY data from dataset provided by India Meteorology Department, GRIB file
 Reanalysis data (ERA5) and also NETCDF4 data for NOAA interpolated OLR.
 
 An introduction to the netCDF4 dataset can be obtained from: 
+
 https://www.unidata.ucar.edu/software/netcdf/
 
 For more details about the GRIB dataset and their structure, visit 
+
 https://www.nco.ncep.noaa.gov/pmb/docs/grib2/grib2_doc/
 
 Information about gridded binary data can be obtained from the below sites: 
+
 https://climatedataguide.ucar.edu/climate-data-tools-and-analysis/binary  
+
 http://cola.gmu.edu/grads/gadoc/aboutgriddeddata.html#formats
 
 One can download the sample datasets used here from the following web portals:
@@ -37,19 +41,24 @@ these operations and here we try to depict only few of them.
 
 The path for obtaining the scripts and sample data are listed below:
 
-1. Read scripts 
+1.Read scripts :
+
   lekshmis9403/Python-DEMO-Scripts/Read/
   
-2.Subsetting scripts 
+2.Subsetting scripts :
+
   lekshmis9403/Python-DEMO-Scripts/subset/
   
-3.Writing Scripts 
+3.Writing Scripts :
+
   lekshmis9403/Python-DEMO-Scripts/write/
   
-4.Plotting Scripts 
+4.Plotting Scripts : 
+
   lekshmis9403/Python-DEMO-Scripts/Plotting/
   
-5.Sample Datasets 
+5.Sample Datasets :
+
   lekshmis9403/Python-DEMO-Scripts/Sample_Data/
 
 STRUCTURE OF REPOSITORY
